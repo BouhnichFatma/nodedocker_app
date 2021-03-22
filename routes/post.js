@@ -13,7 +13,7 @@ const router = express.Router();
 
 router.get('/',(req,res,next) => {
 
-	res.send('Hello from Node Js using Nodemon <br> run a docker container');
+	res.send('Hello from Node Js using Nodemon <br> hello from dockerhub');
 });
 
 router.get('/home', (req, res, next) =>{
